@@ -1,0 +1,44 @@
+# Môi trường ảo (Virtual Environment)
+.venv/
+venv/
+ENV/
+env/
+
+# Cache và bytecode của Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Biến môi trường & Khóa bảo mật (BẮT BUỘC bỏ qua để không lộ API Key)
+.env
+.env.local
+.env.*.local
+!.env.sample
+
+# Cache kiểm thử (Pytest / Coverage)
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Cấu hình IDE & Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Tệp sinh ra từ hệ điều hành (macOS / Windows)
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Tệp log
+*.log
+
+# Dữ liệu cục bộ (Tùy chọn)
+# Lưu ý: Nếu dùng GitHub Actions để lưu trạng thái cào thì KHÔNG bỏ qua state.json
+# Bỏ comment dòng dưới nếu không muốn đẩy các bài viết markdown thô lên repo:
+# data/articles/
